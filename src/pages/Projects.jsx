@@ -6,9 +6,19 @@ function Projects() {
 		<>
 			<h2 className={styles.header}>What has Jeff been up to?</h2>
             <p>All kinds of things! Check out some of my recent projects!</p>
-            <div className={styles.cardsWrapper}>
-                <ProjectCard />
-            </div>
+            <ul className={styles.cardsWrapper}>
+				<h4>2022</h4>
+				<ProjectCard 
+					name="ProxiGPT"
+					description="an unblocked ChatGPT I developed for my high school making use of the OpenAI API."
+					link="https://proxigpt.choobs.repl.co"
+				/>
+                <ProjectCard 
+					name="choobs.repl.co"
+					description="a Google Classroom clone which hosts unblocked games with about 1,000 daily active users from around the United States."
+					link="https://choobs.repl.co"
+				/>
+            </ul>
 		</>
 	)
 }

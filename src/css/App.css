@@ -79,9 +79,12 @@ body div .selected {
   color: #56bdff;
 }
 
+.links a {
+  font-size: 1.5rem;
+}
+
 a {
   margin-top: 0.5rem;
-  font-size: 1.5rem;
   border-radius: 0.3rem;
   padding: 0.1rem;
   text-decoration: none;

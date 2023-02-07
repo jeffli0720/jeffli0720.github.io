@@ -4,6 +4,24 @@
     margin: 1rem 0;
 }
 
+h4 {
+    margin: 1rem 0 0 0;
+    transition: 0s;
+}
+ 
 .cardsWrapper {
-    display: flex;
+    padding: 0 1rem 1rem;
+    transition: 0.2s;
+    border-radius: 0.75rem;
+}
+
+:global(.light) .cardsWrapper {
+    border: 1px solid rgb(243 244 246);
+    background-color: rgb(249 250 251);
+}
+
+
+:global(.dark) .cardsWrapper {
+    border: 1px solid rgba(240, 246, 252, 0.1);
+    background-color: rgba(33, 38, 45, 1);
 }

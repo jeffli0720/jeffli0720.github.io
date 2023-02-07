@@ -1,11 +1,11 @@
 import styles from "./ProjectCard.module.css";
 
-function ProjectCard() {
+function ProjectCard(props) {
 	return (
 		<>
-			<div className={styles.card}>
-                Project Card
-            </div>
+			<li className={styles.card}>
+                <p><a className={styles.link} href={props.link} target="_blank">{props.name}</a>, {props.description}</p>
+            </li>
 		</>
 	)
 }
