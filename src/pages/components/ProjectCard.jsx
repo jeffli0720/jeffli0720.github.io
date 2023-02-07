@@ -4,7 +4,7 @@ function ProjectCard(props) {
 	return (
 		<>
 			<li className={styles.card}>
-                <p><a className={styles.link} href={props.link} target="_blank">{props.name}</a>, {props.description}</p>
+                <p><a className={styles.link} href={props.link} target="_blank" rel="noreferrer">{props.name}</a>, {props.description}</p>
             </li>
 		</>
 	)
