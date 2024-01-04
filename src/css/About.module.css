@@ -3,3 +3,17 @@
     margin: 0;
     margin: 1rem 0;
 }
+
+.bio {
+    line-height: 1.5rem;
+}
+
+.bio p {
+    margin-bottom: 1rem;
+}
+
+@media (max-width:40rem) {
+    .bio {
+        margin-top: 1rem;
+    }
+}

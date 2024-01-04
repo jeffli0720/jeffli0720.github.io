@@ -18,16 +18,20 @@ function Layout() {
 
 	return (
 		<>
-			<div className="toggle-wrapper">
-				<div className="sun" />
-				<div className="switch-wrapper">
-					<input type="checkbox" id="theme-toggle" />
-					<label for="theme-toggle" id="switch" onClick={toggleTheme}></label>
+			<div className="header">
+				<div className="hamburger-menu"></div>
+				<div className="title">Jeff Li</div>
+				<div className="toggle-wrapper">
+					<div className="sun" />
+					<div className="switch-wrapper">
+						<input type="checkbox" id="theme-toggle" />
+						<label for="theme-toggle" id="switch" onClick={toggleTheme}></label>
+					</div>
+					<div className="moon" />
 				</div>
-				<div className="moon" />
 			</div>
 			<div className="flex-row">
-				<div>
+				<div className="sidebar">
 					<img src={avatar} alt="Avatar" />
 					<div className="sidebar-text">
 						<div className="greetings">
